@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #edf2f4;
+}
+
+nav {
+  background-color: #ffea00;
+}
+li {
+  display: inline;
+  border-right: 1px solid #bbb;
+  font-size: 20px;
+}
+li a {
+  text-align: right;
+  color: #0273c4;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #0273c4;
+  text-align: center;
+  text-shadow: 2px 2px yellow;
+  font-size: 40px;
+}
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 20%;
+}
+
+.home {
+  color: #0273c4;
+  text-align: center;
+  fontsize: 18px;
+}
+
+p {
+  color: #2b2d42;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.img {
+  float: right;
+  overflow: auto;
+  clear: right;
+}
+.center {
+  width: 50%;
+  height: 45%;
+  border-radius: 8px;
+}
+.clearfix {
+  overflow: auto;
+}
+h3 {
+  color: #d90429;
+  text-decoration: underline;
+}
